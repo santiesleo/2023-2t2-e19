@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/scala,sbt,java,intellij+all,intellij+iml,intellij,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=scala,sbt,java,intellij+all,intellij+iml,intellij,windows
+# Created by https://www.toptal.com/developers/gitignore/api/scala,oxygenxmleditor,intellij+iml,intellij+all,intellij,windows,java,sbt
+# Edit at https://www.toptal.com/developers/gitignore?templates=scala,oxygenxmleditor,intellij+iml,intellij+all,intellij,windows,java,sbt
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -255,6 +255,11 @@ modules.xml
 hs_err_pid*
 replay_pid*
 
+### oXygenXMLEditor ###
+# oXygen XML Editor by SyncRO Soft SRL
+# https://www.oxygenxml.com
+/**/out/
+
 ### SBT ###
 # Simple Build Tool
 # http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
@@ -302,4 +307,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/scala,sbt,java,intellij+all,intellij+iml,intellij,windows
+# End of https://www.toptal.com/developers/gitignore/api/scala,oxygenxmleditor,intellij+iml,intellij+all,intellij,windows,java,sbt
